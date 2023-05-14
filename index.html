@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Interview Practice</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script defer src="/index.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-page-content">
+    <div id="welcome-message">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div id="form-and-btns">
+      <p id="trial-above"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      <div id="visual-form">
+        <form action="" name="infoForm">
+          <input name="firstName"id="first-name" type="text" placeholder="First Name"required></input>
+          <p id="first-name-alert">First Name cannot be empty</p>
+          <input name="lastName"id="last-name" type="text" placeholder="Last Name" required></input>
+          <p class="alert"id="last-name-alert">Last Name cannot be empty</p>
+          <input name="emailAddress"id="email-address" type="email" placeholder="Email Address" required></input>
+          <p class="alert"id="email-alert">Looks like this is not an email</p>
+          <input name="password"id="password" type="password" placeholder="Password" required></input>
+          <p class="alert"id="password-alert">Password cannot be empty</p>
+          <input name="button"id="trial-below"type="button"value="CLAIM YOUR FREE TRIAL" onClick="handleClick(this.form)"></input>
+        </form>
+        <p id="terms">By clicking the button, you are agreeing to our <span id="link-to-terms">Terms and Services</span></p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://kailahkorsh.com/">Kailah Korsh</a>.
+    </p>
+  </footer>
+</body>
+
+</html>

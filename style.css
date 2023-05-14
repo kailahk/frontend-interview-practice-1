@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+}
+
+#main-page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px 100px;
+    width: 1200px;
+}
+
+#main-page-content > * {
+    width: 600px;
+    padding: 50px
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+#visual-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 460px;
+}
+
+form > input {
+    padding: 10px 0 10px 20px;
+    margin: 5px 10px;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    color: grey;
+    font-weight: 500;
+    font-size: 10px;
+    position: relative;
+    background-image: '';
+    background-repeat: no-repeat;
+}
+
+form > p {
+    color: red;
+    font-size: 8px;
+    margin: 0;
+    margin-right: 10px;
+    float: right;
+    visibility: hidden;
+}
+
+div#form-and-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#form-and-btns> * {
+    box-shadow: 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+#trial-above {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 460px;
+    font-size: 10px;
+    text-align: center;
+}
+
+#trial-above:hover, #trial-below:hover, #link-to-terms:hover {
+    cursor: pointer;
+}
+
+span {
+    font-weight: 700;
+}
+
+#trial-below {
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 400px;
+    font-size: 10px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 12px;
+}
+
+#terms {
+    color: lightgrey;
+    font-size: 10px;
+    text-align: center;
+}
+
+#link-to-terms {
+    color: hsl(39, 100%, 50%);
+}
+
+#welcome-message {
+    align-self: center;
+}
+
+@media screen and (max-width: 400px) {
+    #main-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    #main-page-content > * {
+        width: 300px;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    div#form-and-btns > * {
+        width: 325px;
+    }
+
+    #trial-below,
+    #terms {
+        width: 215px;
+    }
+
+    #trial-above {
+        font-size: 15px;
+        padding: 25px 50px
+    }
+
+    #terms {
+        align-self: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+
+    form > p {
+        margin-right: 35px;
+    }
+
+    form > input {
+        background-position: 220px !important;
+        width: 260px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+}
