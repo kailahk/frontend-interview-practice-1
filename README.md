@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/kailahk/frontend-interview-practice-1]([https://your-solution-url.com](https://github.com/kailahk/frontend-interview-practice-1)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/kailahk/frontend-interview-practice-1](https://github.com/kailahk/frontend-interview-practice-1)
+- Live Site URL: [https://kailahk.github.io/frontend-interview-practice-1/](https://kailahk.github.io/frontend-interview-practice-1/)
 
 ## My process
 
